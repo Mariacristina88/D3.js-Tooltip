@@ -13,7 +13,7 @@ I will show these name of chocolate inside my tooltip, using probably also an ex
 ##Create the graph
 In the HTML we need only to attach the files we will use (css and js) and also the d3 framework (http://d3js.org/d3.v3.min.js). We will make all the rest using D3.js.
 
-Than we need a graph, for example a bar chart:
+Then we need a graph, for example a bar chart:
 
 **D3.js**
 <pre lang="js">
