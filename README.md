@@ -10,6 +10,9 @@ First of all, I created a generic bar chart about a simple argument: chocolate. 
 At the end on my graph I will get 4 different chocolate bars with different taste! What I need to do is specify which kind of chocolate bar I have using name such as "lightchoco", "milkchoco", etc.
 I will show these name of chocolate inside my tooltip, using probably also an extra picture.
 
+![barchart](https://raw.githubusercontent.com/Mariacristina88/D3.js-Tooltip/master/screenshot.png)
+----------------------------------------------------------------------
+
 ##Tooltip
 
 Now that we have our bar chart, we can create the tooltip. To do this we need to create a DIV which is setted initially 'display none' because it should not be shown right now but only when we will hover one specific bar. We also add to the DIV the class "mytooltip" to implement some CSS attributes later on and we also set the opacity of the DIV as 0 which will be useful to make a simple transition when the tooltip appear.
