@@ -15,21 +15,14 @@ Let's start with the HTML:
 
 **HTML**
 <pre lang="html">
-<html>
-
 <head>
-
 	<link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
-
 	<script src="http://d3js.org/d3.v3.min.js"></script>
 	<script src="chocobar.js"></script>
-
 </body>
-</html>
 </pre>
 
 That is the only HTML we will need. We will make all the rest using D3.js.
