@@ -11,22 +11,9 @@ At the end in my graph I will have 4 different chocolate bars with different tas
 I will show these name of chocolate inside my tooltip, using probably also an extra picture.
 
 ##Create the graph
-Let's start with the HTML:
+In the HTML we need only to attach the files we will use (css and js) and also the d3 framework (http://d3js.org/d3.v3.min.js). We will make all the rest using D3.js.
 
-**HTML**
-<pre lang="html">
-<head>
-	<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-	<script src="http://d3js.org/d3.v3.min.js"></script>
-	<script src="chocobar.js"></script>
-</body>
-</pre>
-
-That is the only HTML we will need. We will make all the rest using D3.js.
-This is my bar chart:
+Than we need a graph, for example a bar chart:
 
 **D3.js**
 <pre lang="js">
