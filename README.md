@@ -7,7 +7,7 @@
 A tooltip is a piece of information that will appear when the mouse is hovered over a specific element of the view. Some people call it with different names such as "hover box", "infotip" or "hint" but a sure thing is that it is a useful tool to show informations and it can also be a stylish touch on our project.
 I'd like to show you how I make a tooltip in a D3.js project.
 First of all, I created a generic bar chart about a simple argument: chocolate. I have two values: the percentage of Milk (Y) and the percentage of Cocoa (X).
-At the end in my graph I will have 4 different chocolate bars with different taste! What I need to do is specify which kind of chocolare bar I have using name such as "lightchoco", "milkchoco", etc.
+At the end on my graph I will get 4 different chocolate bars with different taste! What I need to do is specify which kind of chocolate bar I have using name such as "lightchoco", "milkchoco", etc.
 I will show these name of chocolate inside my tooltip, using probably also an extra picture.
 
 ##Create the graph
