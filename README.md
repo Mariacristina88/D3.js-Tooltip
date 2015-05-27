@@ -31,7 +31,7 @@ Let's start with the HTML:
 
 </body>
 </html>
-<pre>
+</pre>
 
 That is the only HTML we will need. We will make all the rest using D3.js.
 This is my bar chart:
@@ -307,5 +307,5 @@ To finish, in order to make our tooltip fancy, let's add a bit of CSS more:
     text-align: center;
   }
 
-<pre>
+</pre>
 
