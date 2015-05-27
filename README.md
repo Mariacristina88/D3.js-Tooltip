@@ -15,7 +15,6 @@ Let's start with the HTML:
 
 **HTML**
 <pre lang="html">
-	<!DOCTYPE html>
 <html>
 
 <head>
@@ -170,7 +169,7 @@ We can also decide to create a little animation on the bar when we hover it like
 		  			.attr("x", function(d) { return x(d.cocoa) - 30; }) //The bar moves to the left a bit
 		  			.style("cursor", "pointer")
 		  			.attr("width", 60) //The bar becomes larger
-<pre>
+</pre>
 
 The elements that we want to select to show the tooltip, are the bars. Than we need to add the mouse events to the bar elements. 
 Now we can call myTool inside the mouse events and set it as display block with opacity 1.
@@ -212,7 +211,7 @@ myTool
   "<div id='thumbnail'><span>" + d.name + "</span><img src='" + d.image + "'/></div>")
   .style("left", (d3.event.pageX - 113) + "px")   
   .style("top", (d3.event.pageY - 190) + "px")
-<pre>
+</pre>
 
 Let's keep everything together:
 
@@ -261,7 +260,6 @@ var bars = chart.selectAll(".bar")
 </pre>
 
 To finish, in order to make our tooltip fancy, let's add a bit of CSS more:
-
 
 **CSS**
 <pre lang="css">
