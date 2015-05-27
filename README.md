@@ -126,7 +126,7 @@ svg {
 
 ##Tooltip
 
-Now that we have our bar chart, we can create the tooltip. To do this we need to create a DIV which has initially display none because it hasn't to be showed right now but only when we hovered one specific bar. We also add to the DIV the class "mytooltip" to implement some CSS later on and we also set the opacity of the DIV as 0 which will be useful to make a simple transition when the tooltip appear.
+Now that we have our bar chart, we can create the tooltip. To do this we need to create a DIV which is setted initially 'display none' because it should not be shown right now but only when we will hover one specific bar. We also add to the DIV the class "mytooltip" to implement some CSS attributes later on and we also set the opacity of the DIV as 0 which will be useful to make a simple transition when the tooltip appear.
 
 <pre lang="js">
 var myTool = d3.select("body")
@@ -137,7 +137,7 @@ var myTool = d3.select("body")
 </pre>
 
 
-After make the tooltip, we will need to make it appear when the mouse is hovered over a specific bar. To do this, we have to use the technique related to mouse 'events' always in D3.js. This events watches the view and when 'something' happens with the mouse on the screen, it does an action. We have different types of mouse events such as "mousedown", "mouseup" and "click", but we need to use only "mouseover" (triggered by an element when the mouse comes over it) and "mouseout" (triggered by an element when the mouse goes out of it). 
+After making the tooltip, we will need to make it appear when the mouse is hovered over a specific bar. To do this, we have to use the technique related to mouse 'events' always in D3.js. This event watches the view and when 'something' happens with the mouse on the screen, it does an action. We have different types of mouse events such as "mousedown", "mouseup" and "click", but we need to use only "mouseover" (triggered by an element when the mouse comes over it) and "mouseout" (triggered by an element when the mouse goes out of it). 
 
 We can also decide to create a little animation on the bar when we hover it like this for example:
 
@@ -151,8 +151,8 @@ We can also decide to create a little animation on the bar when we hover it like
 		  			.attr("width", 60) //The bar becomes larger
 </pre>
 
-The elements that we want to select to show the tooltip, are the bars. Than we need to add the mouse events to the bar elements. 
-Now we can call myTool inside the mouse events and set it as display block with opacity 1.
+The elements on which we want to select to show the tooltip, are the bars. So we need to add the mouse events to the bar elements. 
+Now we can call myTool inside the mouse events and set it on 'display block' with opacity 1.
 
 <pre lang="js">
 	  .on("mouseover", function(d){  //Mouse event
@@ -239,7 +239,7 @@ var bars = chart.selectAll(".bar")
 		      });
 </pre>
 
-To finish, in order to make our tooltip fancy, let's add a bit of CSS more:
+To finish, in order to make our tooltip fanciful, let's add a bit of CSS more:
 
 **CSS**
 <pre lang="css">
